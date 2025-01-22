@@ -53,4 +53,5 @@ function reiniciarSorteio() {
   exibirTextoNaTela("p", "Você precisa de pelo menos dois amigos");
   let listaAmigos = document.getElementById("listaAmigos");
   listaAmigos.innerHTML = "";
+  resultado.innerHTML = "";
 }
